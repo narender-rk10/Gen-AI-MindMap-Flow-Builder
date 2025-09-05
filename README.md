@@ -1,6 +1,6 @@
 # 🧠 GenAI Mind Map Flow Builder (Gnosis)
 
-**GenAI Mind Map Flow Builder** is a cutting-edge, AI-powered tool designed to convert complex, multi-format data into structured, interactive mind maps. Powered by LLMs like OpenAI GPT-4o and Google Gemini, it allows users to process, query, visualize, and summarize knowledge extracted from diverse sources.
+**GenAI Mind Map Flow Builder** is a cutting-edge, AI-powered tool designed to convert complex, multi-format data into structured, interactive mind maps. Powered by LLMs like AWS bedrock Nova Lite, it allows users to process, query, visualize, and summarize knowledge extracted from diverse sources.
 
 ## 📺 Watch Demo on YouTube
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/sxvKbQI7Wl0/0.jpg)](https://youtu.be/sxvKbQI7Wl0)
@@ -123,7 +123,7 @@
 |--------------|------|
 | **Frontend** | ReactJS, CSS |
 | **Backend**  | FastAPI (Python) |
-| **AI Models**| OpenAI GPT-4o, Google Gemini Pro |
+| **AI Models**| Amzon Nova Lite |
 | **Storage**  | Local File System, AWS S3 |
 | **Database** | MongoDB, SQLite |
 | **Vector Store** | ChromaDB (configurable) |
@@ -135,8 +135,8 @@
 ### 🔁 Clone the Repository
 
 ```bash
-git clone https://github.com/NextGenAILabs/GenAIMindMapFlowBuilder.git
-cd GenAIMindMapFlowBuilder
+git clone https://github.com/narender-rk10/Gen-AI-MindMap-Flow-Builder.git
+cd Gen-AI-MindMap-Flow-Builder
 ```
 
 ### 🔧 Backend Setup (FastAPI + Poetry)
@@ -168,8 +168,6 @@ Create a `.env` file inside the `backend/` folder:
 ```env
 # .env
 mongo_db_url=
-openai_api_key=
-gemini_api_key=
 aws_access_key_id=
 aws_secret_access_key=
 bucket_name=
@@ -187,15 +185,6 @@ bucket_name=
 4. Ask follow-ups, skip them, or ask custom questions
 5. Explore answers (text + table + graph)
 6. Export final report as a shareable PDF
-
----
-
-## 🤖 AI Integration Details
-
-| Model          | Purpose |
-|----------------|---------|
-| **OpenAI GPT-4o** | NLP, summarization, Q&A, flow generation |
-| **Google Gemini Pro** | Multimodal input (text, image, video), deeper analysis |
 
 ---
 
