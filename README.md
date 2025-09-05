@@ -135,8 +135,8 @@
 ### 🔁 Clone the Repository
 
 ```bash
-git clone https://github.com/NextGenAILabs/GenAIMindMapFlowBuilder.git
-cd GenAIMindMapFlowBuilder
+git clone https://github.com/narender-rk10/Gen-AI-MindMap-Flow-Builder.git
+cd Gen-AI-MindMap-Flow-Builder
 ```
 
 ### 🔧 Backend Setup (FastAPI + Poetry)
