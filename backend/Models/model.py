@@ -80,6 +80,18 @@ class PPTXNodeQueryResponse(BaseModel):
     type: str
     data: dict    
 
+class XLSXNodeQueryRequest(BaseModel):
+    query: str
+    flow_id: str
+    component_id: str
+    node_id: str
+    request_type: str
+
+class XLSXNodeQueryResponse(BaseModel):
+    id: str
+    type: str
+    data: dict    
+    
 class SQLComponentRequest(BaseModel):
     flow_id: str
     table_name: str
